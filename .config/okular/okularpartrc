@@ -1,0 +1,30 @@
+[Accessibility]
+ChangeColors=false
+ColorMode=Recolor
+RecolorBackground=30,30,46
+RecolorForeground=205,214,244
+
+[Dlg Accessibility]
+ChangeColors=false
+ColorMode=Recolor
+RecolorBackground=30,30,46
+RecolorForeground=205,214,244
+
+[Document]
+ChangeColors=false
+RenderMode=Recolor
+
+[General]
+SmoothScrolling=true
+Sync=true
+
+[PageView]
+BackgroundColor=24,24,37
+MouseMode=Browse
+ShowScrollBars=true
+SmoothScrolling=true
+TrimMargins=false
+ViewContinuous=true
+
+[Reviews]
+AnnotationTools=<tools version="1"><tool id="1" name="Amarillo Catppuccin" type="highlight"><engine color="#f9e2af" type="TextSelector"><annotation color="#f9e2af" type="Highlight" opacity="0.5"/></engine><shortcut>1</shortcut></tool><tool id="2" name="Verde Catppuccin" type="highlight"><engine color="#a6e3a1" type="TextSelector"><annotation color="#a6e3a1" type="Highlight" opacity="0.5"/></engine><shortcut>2</shortcut></tool><tool id="3" name="Azul Catppuccin" type="highlight"><engine color="#89dceb" type="TextSelector"><annotation color="#89dceb" type="Highlight" opacity="0.5"/></engine><shortcut>3</shortcut></tool><tool id="4" name="Rosa Catppuccin" type="highlight"><engine color="#f5c2e7" type="TextSelector"><annotation color="#f5c2e7" type="Highlight" opacity="0.5"/></engine><shortcut>4</shortcut></tool><tool id="5" name="Mauve Catppuccin" type="highlight"><engine color="#cba6f7" type="TextSelector"><annotation color="#cba6f7" type="Highlight" opacity="0.5"/></engine><shortcut>5</shortcut></tool></tools>

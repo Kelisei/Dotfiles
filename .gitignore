@@ -1,0 +1,16 @@
+# OS & editor transient files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*~
+*.log
+
+# Sensitive local configurations
+.env
+.env.*
+*.local
+*.key
+*.pem
+credentials.json
+token.json

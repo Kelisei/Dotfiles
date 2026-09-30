@@ -6,11 +6,6 @@
     },
     {
         "key": "ctrl+l",
-        "command": "antigravity.toggleChatFocus"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "workbench.action.chat.open",
-        "when": "!antigravity.agentBarVisible"
+        "command": "antigravity.openChatView"
     }
 ]

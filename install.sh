@@ -11,6 +11,8 @@ mkdir -p "$HOME/.config/hypr" \
          "$HOME/.config/wezterm" \
          "$HOME/.config/nvim" \
          "$HOME/.config/oh-my-posh" \
+         "$HOME/.config/Antigravity IDE/User" \
+         "$HOME/.config/Code/User" \
          "$HOME/.local/bin"
 
 backup_and_link() {
@@ -55,6 +57,12 @@ backup_and_link "$DOTFILES_DIR/.config/okular/okularpartrc" "$HOME/.config/okula
 
 # Oh-My-Posh
 backup_and_link "$DOTFILES_DIR/.config/oh-my-posh/ayu_dark.json" "$HOME/.config/oh-my-posh/ayu_dark.json"
+
+# Antigravity IDE / VS Code
+backup_and_link "$DOTFILES_DIR/.config/antigravity-ide/settings.json" "$HOME/.config/Antigravity IDE/User/settings.json"
+backup_and_link "$DOTFILES_DIR/.config/antigravity-ide/keybindings.json" "$HOME/.config/Antigravity IDE/User/keybindings.json"
+backup_and_link "$DOTFILES_DIR/.config/antigravity-ide/settings.json" "$HOME/.config/Code/User/settings.json"
+backup_and_link "$DOTFILES_DIR/.config/antigravity-ide/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
 
 # Shell (.bashrc)
 backup_and_link "$DOTFILES_DIR/shell/.bashrc" "$HOME/.bashrc"

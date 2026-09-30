@@ -12,6 +12,7 @@ Personal configuration files for Wayland, Neovim, and terminal workflows.
 | Status Bar | **Waybar** | Top status bar configured with workspace indicators, hardware monitors, and clock. |
 | Terminal | **WezTerm** | GPU-accelerated terminal emulator, Catppuccin Mocha colors, and clipboard paste helper. |
 | Editor | **Neovim** | Lua-based setup with Lazy.nvim, LSP, Mason, Telescope, Neogit, and Org mode emulation. |
+| IDE | **Antigravity IDE** | AI-first development environment with Vim mode, <space> f f file finder, and Tsoding theme. |
 | Document Viewer | **Okular** | PDF viewer configured with Catppuccin recoloring and custom highlight palettes. |
 | Shell & Prompt | **Bash + Oh-My-Posh** | Bash configuration featuring Oh-My-Posh `ayu_dark` theme and `~/.bashrc.local` isolation. |
 | Wallpapers | **swaybg / hyprpaper** | Desktop background images bundled under `wallpapers/`. |
@@ -33,6 +34,9 @@ dotfiles/
 │   │   └── style.css
 │   ├── wezterm/
 │   │   └── wezterm.lua
+│   ├── antigravity-ide/
+│   │   ├── keybindings.json
+│   │   └── settings.json
 │   ├── nvim/
 │   │   ├── init.lua
 │   │   ├── lazy-lock.json

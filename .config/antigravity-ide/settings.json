@@ -1,0 +1,26 @@
+﻿{
+    "workbench.colorTheme": "Tsoding Emacs Gruber Even Darker",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "window.menuBarVisibility": "compact",
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "zig.zls.enabled": "on",
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "f", "f"],
+            "commands": ["workbench.action.quickOpen"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "f", "f"],
+            "commands": ["workbench.action.quickOpen"]
+        }
+    ]
+}

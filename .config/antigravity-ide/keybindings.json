@@ -1,0 +1,7 @@
+﻿[
+    {
+        "key": "space f f",
+        "command": "workbench.action.quickOpen",
+        "when": "!editorTextFocus && !inputFocus && !terminalFocus"
+    }
+]

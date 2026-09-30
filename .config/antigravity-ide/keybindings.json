@@ -2,6 +2,6 @@
     {
         "key": "space f f",
         "command": "workbench.action.quickOpen",
-        "when": "!editorTextFocus && !inputFocus && !terminalFocus"
+        "when": "!editorTextFocus && !inputFocus && !terminalFocus && !webviewFocus && !chatFocus && !inChat && !chatInputHasFocus && !antigravity.isInAgentModeView && !antigravity.isAgentModeInputBoxFocused"
     }
 ]

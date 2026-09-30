@@ -6,6 +6,6 @@
     },
     {
         "key": "ctrl+l",
-        "command": "antigravity.openChatView"
+        "command": "antigravity.openAgent"
     }
 ]
